@@ -22,6 +22,7 @@ public class answers extends intro {
             result = 3;
         } else {
             riddle.story2();
+            check2();
             result = 0;
         }
         return result;
