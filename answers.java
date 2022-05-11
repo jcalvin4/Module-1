@@ -9,7 +9,7 @@ public class answers extends intro {
             result = 1;
             
         } else {
-            riddle.story();
+            Main.run();
             result = 0;
         }
         return result;
