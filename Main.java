@@ -1,10 +1,10 @@
 public class Main{
     public static void main(String[] args){
-        run();
+       intro.GetName();
+       run();
     }
     
     public static void run(){
-        intro.GetName();
         riddle.story();
         answers.check1();
         riddle.story2();
